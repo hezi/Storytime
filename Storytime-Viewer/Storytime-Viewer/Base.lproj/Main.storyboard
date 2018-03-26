@@ -33,23 +33,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="Rlz-XT-nMC">
+                        <view key="tableHeaderView" contentMode="scaleToFill" misplaced="YES" id="Rlz-XT-nMC">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="m8e-x8-Pde">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="m8e-x8-Pde">
                                     <rect key="frame" x="14" y="14" width="40" height="40"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Storytime - Storyboard preview for iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAW-vM-nmC">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Storytime - Storyboard preview for iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mAW-vM-nmC">
                                     <rect key="frame" x="62" y="24" width="298" height="21"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="298" id="ooE-aT-UWL"/>
+                                    </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" red="0.45478743310000003" green="0.45455747839999999" blue="0.47523581980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="mAW-vM-nmC" firstAttribute="top" secondItem="Rlz-XT-nMC" secondAttribute="top" constant="24" id="7fk-R8-WrI"/>
+                                <constraint firstAttribute="trailing" secondItem="mAW-vM-nmC" secondAttribute="trailing" constant="15" id="bbf-gA-7J1"/>
+                                <constraint firstItem="mAW-vM-nmC" firstAttribute="leading" secondItem="m8e-x8-Pde" secondAttribute="trailing" constant="8" symbolic="YES" id="v1L-XK-ycD"/>
+                                <constraint firstItem="mAW-vM-nmC" firstAttribute="centerY" secondItem="m8e-x8-Pde" secondAttribute="centerY" id="x3P-go-cdH"/>
+                            </constraints>
                         </view>
                         <sections>
                             <tableViewSection headerTitle="About" footerTitle="Copyright 2008, Jorge Cohen" id="KK1-Zp-pN3">

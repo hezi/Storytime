@@ -9,15 +9,18 @@
 #import "STTTableView.h"
 #import "CXMLElement+Storytime.h"
 #import "STTView.h"
+#import "STTCSS.h"
 
 @interface STTTableViewCell : NSObject <STTElement>
 @property (nonatomic) STTView *contentView;
+@property (nonatomic, assign) CGRect rect;
 @end
 
 @implementation STTTableViewCell
 - (instancetype)initWithXMLElement:(CXMLElement *)element board:(STTBoard *)board {
     self = [super init];
     if (self) {
+        self.rect = [[element elementForName:@"rect"] rectValue];
         self.contentView = [STTView viewWithXMLElement:[element elementForName:@"tableViewCellContentView"] board:board];
     }
 
@@ -27,7 +30,7 @@
 - (NSString *)htmlRepresentation {
     NSMutableString *html = [NSMutableString string];
 
-    [html appendString:@"<li class='table-view-cell'>"];
+    [html appendFormat:@"<li class='table-view-cell' style='%@'>", STTSizeToCSS(self.rect.size)];
     [html appendString:[self.contentView htmlRepresentation]];
     [html appendString:@"</li>"];
 

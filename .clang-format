@@ -1,0 +1,11 @@
+﻿---
+BasedOnStyle: WebKit
+BreakBeforeBraces: Attach
+TabWidth: '4'
+UseTab: Never
+PointerBindsToType: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+...

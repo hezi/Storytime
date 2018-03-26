@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Storyboard</title>
+        <style>
+          %CSS_IMPORTS%
+          
+          body {
+             font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+          }
+          
+          .tableViewController, .viewController {
+             border:1px solid #A6A6A6; 
+          }
+
+          #%INITIAL%::before {
+            position: absolute;
+            bottom: center; 
+            left: -80;
+            top: 333;
+            height: 400px;
+            font-size: 65pt;
+            content: "➞";
+          }
+
+          #%INITIAL% div {
+            height: 100%;  
+          }          
+
+          .bar .btn-nav.pull-left {
+            margin-left: 0px !important;
+          }
+
+          .bar .btn-nav.pull-right {
+            margin-right: 0px !important;
+          }
+          
+          .table-view-divider {
+            font-size: 14px;
+            font-weight: normal;
+            background-image: none !important;
+          }
+
+          .table-view-section-header {
+            padding-top: 30;
+            text-transform: uppercase;
+          }
+
+          .table-view-section-footer {
+          }
+
+          .tableViewController, .table-view-divider {
+            background-color: #ECEBF1;
+          }
+
+          .table-view-cell {
+            height: 43px;
+          }
+
+          .bar {
+            height: 64px;
+            padding-top: 20px;
+          }
+
+          .segmented-control {
+              background-color: transparent !important;
+              border: 1px solid #007aff !important;
+          }          
+
+
+          .segmented-control .control-item {
+            color: #007aff !important;
+            border-color: #007aff !important;
+          }
+        
+          .segmented-control .control-item.active {
+            color: #fff !important;
+            background-color: #007aff  !important;
+          }
+        </style>
+    </head>
+    <body style="margin:10px; %BODY_STYLE%">
+      %BODY%
+    </body>
+</html>

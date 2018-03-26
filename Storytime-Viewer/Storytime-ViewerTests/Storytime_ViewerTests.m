@@ -1,19 +1,18 @@
 //
-//  StorytimeTests.m
-//  StorytimeTests
+//  Storytime_ViewerTests.m
+//  Storytime-ViewerTests
 //
-//  Created by Jorge Cohen on 3/25/18.
+//  Created by Jorge Cohen on 3/26/18.
 //  Copyright © 2018 Jorge Cohen. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "STTBoard.h"
 
-@interface StorytimeTests : XCTestCase
+@interface Storytime_ViewerTests : XCTestCase
 
 @end
 
-@implementation StorytimeTests
+@implementation Storytime_ViewerTests
 
 - (void)setUp {
     [super setUp];
@@ -26,11 +25,8 @@
 }
 
 - (void)testExample {
-    NSURL *storyURL = [NSURL fileURLWithPath:@"/Users/hezi/Desktop/storyboard.storyboard"]; //@"/Users/hezi/TalkTheTime/TalkTheTime/Base.lproj/Main.storyboard"
-    STTBoard *board = [[STTBoard alloc] initWithURL:storyURL];
-    
-    [[board htmlRepresentation] writeToURL:[NSURL URLWithString:@"file:///Users/hezi/Desktop/untitles.html"] atomically:YES encoding:NSUTF8StringEncoding error:nil];
-
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
 - (void)testPerformanceExample {

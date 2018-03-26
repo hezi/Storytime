@@ -10,6 +10,104 @@
 		E7AA3E802067C62600EE2674 /* Storytime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3E762067C62600EE2674 /* Storytime.framework */; };
 		E7AA3E852067C62600EE2674 /* StorytimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3E842067C62600EE2674 /* StorytimeTests.m */; };
 		E7AA3E872067C62600EE2674 /* Storytime.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3E792067C62600EE2674 /* Storytime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3E9E2067C65B00EE2674 /* StorytimeiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3E952067C65B00EE2674 /* StorytimeiOS.framework */; };
+		E7AA3EA32067C65B00EE2674 /* StorytimeiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EA22067C65B00EE2674 /* StorytimeiOSTests.m */; };
+		E7AA3EA52067C65B00EE2674 /* StorytimeiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3E972067C65B00EE2674 /* StorytimeiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EAE2067C69700EE2674 /* STTBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EAC2067C69700EE2674 /* STTBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EAF2067C69700EE2674 /* STTBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EAC2067C69700EE2674 /* STTBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EB02067C69700EE2674 /* STTBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EAD2067C69700EE2674 /* STTBoard.m */; };
+		E7AA3EB12067C69700EE2674 /* STTBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EAD2067C69700EE2674 /* STTBoard.m */; };
+		E7AA3EB42067C72B00EE2674 /* CXMLElement+Storytime.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EB22067C72B00EE2674 /* CXMLElement+Storytime.h */; };
+		E7AA3EB52067C72B00EE2674 /* CXMLElement+Storytime.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EB22067C72B00EE2674 /* CXMLElement+Storytime.h */; };
+		E7AA3EB62067C72B00EE2674 /* CXMLElement+Storytime.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EB32067C72B00EE2674 /* CXMLElement+Storytime.m */; };
+		E7AA3EB72067C72B00EE2674 /* CXMLElement+Storytime.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EB32067C72B00EE2674 /* CXMLElement+Storytime.m */; };
+		E7AA3EBA2067CADB00EE2674 /* STTScene.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EB82067CADB00EE2674 /* STTScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EBB2067CADB00EE2674 /* STTScene.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EB82067CADB00EE2674 /* STTScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EBC2067CADB00EE2674 /* STTScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EB92067CADB00EE2674 /* STTScene.m */; };
+		E7AA3EBD2067CADB00EE2674 /* STTScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EB92067CADB00EE2674 /* STTScene.m */; };
+		E7AA3EC02067D1DB00EE2674 /* STTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EBE2067D1DB00EE2674 /* STTViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EC12067D1DB00EE2674 /* STTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EBE2067D1DB00EE2674 /* STTViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EC22067D1DB00EE2674 /* STTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EBF2067D1DB00EE2674 /* STTViewController.m */; };
+		E7AA3EC32067D1DB00EE2674 /* STTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EBF2067D1DB00EE2674 /* STTViewController.m */; };
+		E7AA3EC62067D59000EE2674 /* STTCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EC42067D58F00EE2674 /* STTCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EC72067D59000EE2674 /* STTCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EC42067D58F00EE2674 /* STTCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EC82067D59000EE2674 /* STTCSS.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EC52067D58F00EE2674 /* STTCSS.m */; };
+		E7AA3EC92067D59000EE2674 /* STTCSS.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EC52067D58F00EE2674 /* STTCSS.m */; };
+		E7AA3ECB2067E49300EE2674 /* STTElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3ECA2067E49300EE2674 /* STTElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3ECC2067E49300EE2674 /* STTElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3ECA2067E49300EE2674 /* STTElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3ECF2067E52A00EE2674 /* STTNavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3ECD2067E52A00EE2674 /* STTNavigationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3ED02067E52A00EE2674 /* STTNavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3ECD2067E52A00EE2674 /* STTNavigationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3ED12067E52A00EE2674 /* STTNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3ECE2067E52A00EE2674 /* STTNavigationItem.m */; };
+		E7AA3ED22067E52A00EE2674 /* STTNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3ECE2067E52A00EE2674 /* STTNavigationItem.m */; };
+		E7AA3ED52067E85700EE2674 /* STTView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3ED32067E85700EE2674 /* STTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3ED62067E85700EE2674 /* STTView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3ED32067E85700EE2674 /* STTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3ED72067E85700EE2674 /* STTView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3ED42067E85700EE2674 /* STTView.m */; };
+		E7AA3ED82067E85700EE2674 /* STTView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3ED42067E85700EE2674 /* STTView.m */; };
+		E7AA3EE3206823CA00EE2674 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = E7AA3EE2206823CA00EE2674 /* template.html */; };
+		E7AA3EE4206823CA00EE2674 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = E7AA3EE2206823CA00EE2674 /* template.html */; };
+		E7AA3EE7206823D700EE2674 /* ratchet-theme-ios.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E7AA3EE5206823D600EE2674 /* ratchet-theme-ios.min.css */; };
+		E7AA3EE8206823D700EE2674 /* ratchet-theme-ios.min.css in Resources */ = {isa = PBXBuildFile; fileRef = E7AA3EE5206823D600EE2674 /* ratchet-theme-ios.min.css */; };
+		E7AA3EE9206823D700EE2674 /* ratchet.css in Resources */ = {isa = PBXBuildFile; fileRef = E7AA3EE6206823D600EE2674 /* ratchet.css */; };
+		E7AA3EEA206823D700EE2674 /* ratchet.css in Resources */ = {isa = PBXBuildFile; fileRef = E7AA3EE6206823D600EE2674 /* ratchet.css */; };
+		E7AA3EED20682A2100EE2674 /* STTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EEB20682A2100EE2674 /* STTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EEE20682A2100EE2674 /* STTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3EEB20682A2100EE2674 /* STTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7AA3EEF20682A2100EE2674 /* STTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EEC20682A2100EE2674 /* STTTableView.m */; };
+		E7AA3EF020682A2100EE2674 /* STTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3EEC20682A2100EE2674 /* STTTableView.m */; };
+		E7AA3F682068C0DF00EE2674 /* CXMLNode_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F4F2068C0DB00EE2674 /* CXMLNode_PrivateExtensions.h */; };
+		E7AA3F692068C0DF00EE2674 /* CXMLNode_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F4F2068C0DB00EE2674 /* CXMLNode_PrivateExtensions.h */; };
+		E7AA3F6C2068C0DF00EE2674 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F512068C0DC00EE2674 /* CXMLNode_PrivateExtensions.m */; };
+		E7AA3F6D2068C0DF00EE2674 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F512068C0DC00EE2674 /* CXMLNode_PrivateExtensions.m */; };
+		E7AA3F6E2068C0DF00EE2674 /* CXMLElement_ElementTreeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F522068C0DC00EE2674 /* CXMLElement_ElementTreeExtensions.h */; };
+		E7AA3F6F2068C0DF00EE2674 /* CXMLElement_ElementTreeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F522068C0DC00EE2674 /* CXMLElement_ElementTreeExtensions.h */; };
+		E7AA3F702068C0DF00EE2674 /* CXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F532068C0DC00EE2674 /* CXMLNode.h */; };
+		E7AA3F712068C0DF00EE2674 /* CXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F532068C0DC00EE2674 /* CXMLNode.h */; };
+		E7AA3F722068C0DF00EE2674 /* CXMLElement_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F542068C0DC00EE2674 /* CXMLElement_CreationExtensions.h */; };
+		E7AA3F732068C0DF00EE2674 /* CXMLElement_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F542068C0DC00EE2674 /* CXMLElement_CreationExtensions.h */; };
+		E7AA3F742068C0DF00EE2674 /* CXMLUnsupportedNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F552068C0DC00EE2674 /* CXMLUnsupportedNode.h */; };
+		E7AA3F752068C0DF00EE2674 /* CXMLUnsupportedNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F552068C0DC00EE2674 /* CXMLUnsupportedNode.h */; };
+		E7AA3F762068C0DF00EE2674 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F562068C0DC00EE2674 /* CXMLNamespaceNode.m */; };
+		E7AA3F772068C0DF00EE2674 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F562068C0DC00EE2674 /* CXMLNamespaceNode.m */; };
+		E7AA3F782068C0DF00EE2674 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F572068C0DC00EE2674 /* CXMLElement_ElementTreeExtensions.m */; };
+		E7AA3F792068C0DF00EE2674 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F572068C0DC00EE2674 /* CXMLElement_ElementTreeExtensions.m */; };
+		E7AA3F7A2068C0DF00EE2674 /* CXMLUnsupportedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F582068C0DC00EE2674 /* CXMLUnsupportedNode.m */; };
+		E7AA3F7B2068C0DF00EE2674 /* CXMLUnsupportedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F582068C0DC00EE2674 /* CXMLUnsupportedNode.m */; };
+		E7AA3F7C2068C0DF00EE2674 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F592068C0DD00EE2674 /* CXMLNode.m */; };
+		E7AA3F7D2068C0DF00EE2674 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F592068C0DD00EE2674 /* CXMLNode.m */; };
+		E7AA3F7E2068C0DF00EE2674 /* Tidy in Resources */ = {isa = PBXBuildFile; fileRef = E7AA3F5A2068C0DD00EE2674 /* Tidy */; };
+		E7AA3F7F2068C0DF00EE2674 /* Tidy in Resources */ = {isa = PBXBuildFile; fileRef = E7AA3F5A2068C0DD00EE2674 /* Tidy */; };
+		E7AA3F802068C0DF00EE2674 /* TouchXML.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F5B2068C0DD00EE2674 /* TouchXML.h */; };
+		E7AA3F812068C0DF00EE2674 /* TouchXML.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F5B2068C0DD00EE2674 /* TouchXML.h */; };
+		E7AA3F822068C0DF00EE2674 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F5C2068C0DD00EE2674 /* CXMLDocument.m */; };
+		E7AA3F832068C0DF00EE2674 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F5C2068C0DD00EE2674 /* CXMLDocument.m */; };
+		E7AA3F842068C0DF00EE2674 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F5D2068C0DD00EE2674 /* CXMLDocument_PrivateExtensions.m */; };
+		E7AA3F852068C0DF00EE2674 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F5D2068C0DD00EE2674 /* CXMLDocument_PrivateExtensions.m */; };
+		E7AA3F862068C0DF00EE2674 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F5E2068C0DD00EE2674 /* CXMLNode_XPathExtensions.m */; };
+		E7AA3F872068C0DF00EE2674 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F5E2068C0DD00EE2674 /* CXMLNode_XPathExtensions.m */; };
+		E7AA3F882068C0DF00EE2674 /* CXHTMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F5F2068C0DD00EE2674 /* CXHTMLDocument.h */; };
+		E7AA3F892068C0DF00EE2674 /* CXHTMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F5F2068C0DD00EE2674 /* CXHTMLDocument.h */; };
+		E7AA3F8A2068C0DF00EE2674 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F602068C0DD00EE2674 /* CXMLElement.m */; };
+		E7AA3F8B2068C0DF00EE2674 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F602068C0DD00EE2674 /* CXMLElement.m */; };
+		E7AA3F8C2068C0DF00EE2674 /* CXMLDocument_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F612068C0DE00EE2674 /* CXMLDocument_PrivateExtensions.h */; };
+		E7AA3F8D2068C0DF00EE2674 /* CXMLDocument_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F612068C0DE00EE2674 /* CXMLDocument_PrivateExtensions.h */; };
+		E7AA3F8E2068C0DF00EE2674 /* CXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F622068C0DE00EE2674 /* CXMLElement.h */; };
+		E7AA3F8F2068C0DF00EE2674 /* CXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F622068C0DE00EE2674 /* CXMLElement.h */; };
+		E7AA3F902068C0DF00EE2674 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F632068C0DE00EE2674 /* CXHTMLDocument.m */; };
+		E7AA3F912068C0DF00EE2674 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F632068C0DE00EE2674 /* CXHTMLDocument.m */; };
+		E7AA3F922068C0DF00EE2674 /* CXMLNode_XPathExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F642068C0DE00EE2674 /* CXMLNode_XPathExtensions.h */; };
+		E7AA3F932068C0DF00EE2674 /* CXMLNode_XPathExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F642068C0DE00EE2674 /* CXMLNode_XPathExtensions.h */; };
+		E7AA3F942068C0DF00EE2674 /* CXMLNamespaceNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F652068C0DE00EE2674 /* CXMLNamespaceNode.h */; };
+		E7AA3F952068C0DF00EE2674 /* CXMLNamespaceNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F652068C0DE00EE2674 /* CXMLNamespaceNode.h */; };
+		E7AA3F962068C0DF00EE2674 /* CXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F662068C0DE00EE2674 /* CXMLDocument.h */; };
+		E7AA3F972068C0DF00EE2674 /* CXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3F662068C0DE00EE2674 /* CXMLDocument.h */; };
+		E7AA3F982068C0DF00EE2674 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F672068C0DF00EE2674 /* CXMLElement_CreationExtensions.m */; };
+		E7AA3F992068C0DF00EE2674 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F672068C0DF00EE2674 /* CXMLElement_CreationExtensions.m */; };
+		E7AA3FA22068C3DB00EE2674 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F9F2068C3DA00EE2674 /* CXMLDocument_CreationExtensions.m */; };
+		E7AA3FA32068C3DB00EE2674 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3F9F2068C3DA00EE2674 /* CXMLDocument_CreationExtensions.m */; };
+		E7AA3FA42068C3DB00EE2674 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3FA02068C3DB00EE2674 /* CXMLNode_CreationExtensions.m */; };
+		E7AA3FA52068C3DB00EE2674 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3FA02068C3DB00EE2674 /* CXMLNode_CreationExtensions.m */; };
+		E7AA3FA62068C5CF00EE2674 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3F9A2068C2A100EE2674 /* libxml2.tbd */; };
+		E7AA3FA72068C5D400EE2674 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3F9C2068C2A800EE2674 /* libxml2.tbd */; };
+		E7AA3FAD2068C72500EE2674 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3FAC2068C72400EE2674 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +118,27 @@
 			remoteGlobalIDString = E7AA3E752067C62600EE2674;
 			remoteInfo = Storytime;
 		};
+		E7AA3E9F2067C65B00EE2674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AA3E6D2067C62600EE2674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7AA3E942067C65B00EE2674;
+			remoteInfo = StorytimeiOS;
+		};
+		E7AA3F2C2068ABC700EE2674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AA3F272068ABC600EE2674 /* Storytime-Viewer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7AA3EFA2068ABC200EE2674;
+			remoteInfo = "Storytime-Viewer";
+		};
+		E7AA3F2E2068ABC700EE2674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7AA3F272068ABC600EE2674 /* Storytime-Viewer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7AA3F182068ABC200EE2674;
+			remoteInfo = "Storytime-ViewerTests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +148,66 @@
 		E7AA3E7F2067C62600EE2674 /* StorytimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorytimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7AA3E842067C62600EE2674 /* StorytimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorytimeTests.m; sourceTree = "<group>"; };
 		E7AA3E862067C62600EE2674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AA3E952067C65B00EE2674 /* StorytimeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StorytimeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AA3E972067C65B00EE2674 /* StorytimeiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorytimeiOS.h; sourceTree = "<group>"; };
+		E7AA3E982067C65B00EE2674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AA3E9D2067C65B00EE2674 /* StorytimeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorytimeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AA3EA22067C65B00EE2674 /* StorytimeiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorytimeiOSTests.m; sourceTree = "<group>"; };
+		E7AA3EA42067C65B00EE2674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AA3EAC2067C69700EE2674 /* STTBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTBoard.h; sourceTree = "<group>"; };
+		E7AA3EAD2067C69700EE2674 /* STTBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTBoard.m; sourceTree = "<group>"; };
+		E7AA3EB22067C72B00EE2674 /* CXMLElement+Storytime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CXMLElement+Storytime.h"; sourceTree = "<group>"; };
+		E7AA3EB32067C72B00EE2674 /* CXMLElement+Storytime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CXMLElement+Storytime.m"; sourceTree = "<group>"; };
+		E7AA3EB82067CADB00EE2674 /* STTScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTScene.h; sourceTree = "<group>"; };
+		E7AA3EB92067CADB00EE2674 /* STTScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTScene.m; sourceTree = "<group>"; };
+		E7AA3EBE2067D1DB00EE2674 /* STTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTViewController.h; sourceTree = "<group>"; };
+		E7AA3EBF2067D1DB00EE2674 /* STTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTViewController.m; sourceTree = "<group>"; };
+		E7AA3EC42067D58F00EE2674 /* STTCSS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTCSS.h; sourceTree = "<group>"; };
+		E7AA3EC52067D58F00EE2674 /* STTCSS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTCSS.m; sourceTree = "<group>"; };
+		E7AA3ECA2067E49300EE2674 /* STTElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTElement.h; sourceTree = "<group>"; };
+		E7AA3ECD2067E52A00EE2674 /* STTNavigationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTNavigationItem.h; sourceTree = "<group>"; };
+		E7AA3ECE2067E52A00EE2674 /* STTNavigationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTNavigationItem.m; sourceTree = "<group>"; };
+		E7AA3ED32067E85700EE2674 /* STTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTView.h; sourceTree = "<group>"; };
+		E7AA3ED42067E85700EE2674 /* STTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTView.m; sourceTree = "<group>"; };
+		E7AA3EE2206823CA00EE2674 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+		E7AA3EE5206823D600EE2674 /* ratchet-theme-ios.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ratchet-theme-ios.min.css"; sourceTree = "<group>"; };
+		E7AA3EE6206823D600EE2674 /* ratchet.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ratchet.css; sourceTree = "<group>"; };
+		E7AA3EEB20682A2100EE2674 /* STTTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTTableView.h; sourceTree = "<group>"; };
+		E7AA3EEC20682A2100EE2674 /* STTTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTTableView.m; sourceTree = "<group>"; };
+		E7AA3F272068ABC600EE2674 /* Storytime-Viewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Storytime-Viewer.xcodeproj"; path = "Storytime-Viewer/Storytime-Viewer.xcodeproj"; sourceTree = "<group>"; };
+		E7AA3F4F2068C0DB00EE2674 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_PrivateExtensions.h; path = Vendor/TouchXML/CXMLNode_PrivateExtensions.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F512068C0DC00EE2674 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_PrivateExtensions.m; path = Vendor/TouchXML/CXMLNode_PrivateExtensions.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F522068C0DC00EE2674 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_ElementTreeExtensions.h; path = Vendor/TouchXML/CXMLElement_ElementTreeExtensions.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F532068C0DC00EE2674 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode.h; path = Vendor/TouchXML/CXMLNode.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F542068C0DC00EE2674 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_CreationExtensions.h; path = Vendor/TouchXML/CXMLElement_CreationExtensions.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F552068C0DC00EE2674 /* CXMLUnsupportedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLUnsupportedNode.h; path = Vendor/TouchXML/CXMLUnsupportedNode.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F562068C0DC00EE2674 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNamespaceNode.m; path = Vendor/TouchXML/CXMLNamespaceNode.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F572068C0DC00EE2674 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_ElementTreeExtensions.m; path = Vendor/TouchXML/CXMLElement_ElementTreeExtensions.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F582068C0DC00EE2674 /* CXMLUnsupportedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLUnsupportedNode.m; path = Vendor/TouchXML/CXMLUnsupportedNode.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F592068C0DD00EE2674 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode.m; path = Vendor/TouchXML/CXMLNode.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F5A2068C0DD00EE2674 /* Tidy */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Tidy; path = Vendor/TouchXML/Tidy; sourceTree = SOURCE_ROOT; };
+		E7AA3F5B2068C0DD00EE2674 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = Vendor/TouchXML/TouchXML.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F5C2068C0DD00EE2674 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument.m; path = Vendor/TouchXML/CXMLDocument.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F5D2068C0DD00EE2674 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument_PrivateExtensions.m; path = Vendor/TouchXML/CXMLDocument_PrivateExtensions.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F5E2068C0DD00EE2674 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_XPathExtensions.m; path = Vendor/TouchXML/CXMLNode_XPathExtensions.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F5F2068C0DD00EE2674 /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXHTMLDocument.h; path = Vendor/TouchXML/CXHTMLDocument.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F602068C0DD00EE2674 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement.m; path = Vendor/TouchXML/CXMLElement.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F612068C0DE00EE2674 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = Vendor/TouchXML/CXMLDocument_PrivateExtensions.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F622068C0DE00EE2674 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement.h; path = Vendor/TouchXML/CXMLElement.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F632068C0DE00EE2674 /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXHTMLDocument.m; path = Vendor/TouchXML/CXHTMLDocument.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F642068C0DE00EE2674 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_XPathExtensions.h; path = Vendor/TouchXML/CXMLNode_XPathExtensions.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F652068C0DE00EE2674 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNamespaceNode.h; path = Vendor/TouchXML/CXMLNamespaceNode.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F662068C0DE00EE2674 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument.h; path = Vendor/TouchXML/CXMLDocument.h; sourceTree = SOURCE_ROOT; };
+		E7AA3F672068C0DF00EE2674 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_CreationExtensions.m; path = Vendor/TouchXML/CXMLElement_CreationExtensions.m; sourceTree = SOURCE_ROOT; };
+		E7AA3F9A2068C2A100EE2674 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		E7AA3F9C2068C2A800EE2674 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
+		E7AA3F9E2068C3DA00EE2674 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		E7AA3F9F2068C3DA00EE2674 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		E7AA3FA02068C3DB00EE2674 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		E7AA3FA12068C3DB00EE2674 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		E7AA3FA82068C6D100EE2674 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		E7AA3FA92068C6D100EE2674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E7AA3FAC2068C72400EE2674 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AA3FA62068C5CF00EE2674 /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,15 +227,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7AA3E912067C65B00EE2674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AA3FAD2068C72500EE2674 /* UIKit.framework in Frameworks */,
+				E7AA3FA72068C5D400EE2674 /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA3E9A2067C65B00EE2674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AA3E9E2067C65B00EE2674 /* StorytimeiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E7AA3E6C2067C62600EE2674 = {
 			isa = PBXGroup;
 			children = (
+				E7AA3F272068ABC600EE2674 /* Storytime-Viewer.xcodeproj */,
 				E7AA3E782067C62600EE2674 /* Storytime */,
 				E7AA3E832067C62600EE2674 /* StorytimeTests */,
+				E7AA3E962067C65B00EE2674 /* StorytimeiOS */,
+				E7AA3EA12067C65B00EE2674 /* StorytimeiOSTests */,
 				E7AA3E772067C62600EE2674 /* Products */,
+				E7AA3F472068BF5000EE2674 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +265,8 @@
 			children = (
 				E7AA3E762067C62600EE2674 /* Storytime.framework */,
 				E7AA3E7F2067C62600EE2674 /* StorytimeTests.xctest */,
+				E7AA3E952067C65B00EE2674 /* StorytimeiOS.framework */,
+				E7AA3E9D2067C65B00EE2674 /* StorytimeiOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +274,29 @@
 		E7AA3E782067C62600EE2674 /* Storytime */ = {
 			isa = PBXGroup;
 			children = (
+				E7AA3F4E2068C0CD00EE2674 /* TouchXML */,
+				E7AA3EE5206823D600EE2674 /* ratchet-theme-ios.min.css */,
+				E7AA3EE6206823D600EE2674 /* ratchet.css */,
+				E7AA3EE2206823CA00EE2674 /* template.html */,
+				E7AA3EB22067C72B00EE2674 /* CXMLElement+Storytime.h */,
+				E7AA3EB32067C72B00EE2674 /* CXMLElement+Storytime.m */,
+				E7AA3EC42067D58F00EE2674 /* STTCSS.h */,
+				E7AA3EC52067D58F00EE2674 /* STTCSS.m */,
 				E7AA3E792067C62600EE2674 /* Storytime.h */,
 				E7AA3E7A2067C62600EE2674 /* Info.plist */,
+				E7AA3ECA2067E49300EE2674 /* STTElement.h */,
+				E7AA3EAC2067C69700EE2674 /* STTBoard.h */,
+				E7AA3EAD2067C69700EE2674 /* STTBoard.m */,
+				E7AA3EB82067CADB00EE2674 /* STTScene.h */,
+				E7AA3EB92067CADB00EE2674 /* STTScene.m */,
+				E7AA3EBE2067D1DB00EE2674 /* STTViewController.h */,
+				E7AA3EBF2067D1DB00EE2674 /* STTViewController.m */,
+				E7AA3ECD2067E52A00EE2674 /* STTNavigationItem.h */,
+				E7AA3ECE2067E52A00EE2674 /* STTNavigationItem.m */,
+				E7AA3ED32067E85700EE2674 /* STTView.h */,
+				E7AA3ED42067E85700EE2674 /* STTView.m */,
+				E7AA3EEB20682A2100EE2674 /* STTTableView.h */,
+				E7AA3EEC20682A2100EE2674 /* STTTableView.m */,
 			);
 			path = Storytime;
 			sourceTree = "<group>";
@@ -86,6 +310,80 @@
 			path = StorytimeTests;
 			sourceTree = "<group>";
 		};
+		E7AA3E962067C65B00EE2674 /* StorytimeiOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA3E972067C65B00EE2674 /* StorytimeiOS.h */,
+				E7AA3E982067C65B00EE2674 /* Info.plist */,
+			);
+			path = StorytimeiOS;
+			sourceTree = "<group>";
+		};
+		E7AA3EA12067C65B00EE2674 /* StorytimeiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA3EA22067C65B00EE2674 /* StorytimeiOSTests.m */,
+				E7AA3EA42067C65B00EE2674 /* Info.plist */,
+			);
+			path = StorytimeiOSTests;
+			sourceTree = "<group>";
+		};
+		E7AA3F282068ABC600EE2674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA3F2D2068ABC700EE2674 /* Storytime-Viewer.app */,
+				E7AA3F2F2068ABC700EE2674 /* Storytime-ViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7AA3F472068BF5000EE2674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA3FAC2068C72400EE2674 /* UIKit.framework */,
+				E7AA3FA82068C6D100EE2674 /* CoreFoundation.framework */,
+				E7AA3FA92068C6D100EE2674 /* Foundation.framework */,
+				E7AA3F9C2068C2A800EE2674 /* libxml2.tbd */,
+				E7AA3F9A2068C2A100EE2674 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7AA3F4E2068C0CD00EE2674 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				E7AA3FA12068C3DB00EE2674 /* CXMLDocument_CreationExtensions.h */,
+				E7AA3F9F2068C3DA00EE2674 /* CXMLDocument_CreationExtensions.m */,
+				E7AA3F9E2068C3DA00EE2674 /* CXMLNode_CreationExtensions.h */,
+				E7AA3FA02068C3DB00EE2674 /* CXMLNode_CreationExtensions.m */,
+				E7AA3F5F2068C0DD00EE2674 /* CXHTMLDocument.h */,
+				E7AA3F632068C0DE00EE2674 /* CXHTMLDocument.m */,
+				E7AA3F612068C0DE00EE2674 /* CXMLDocument_PrivateExtensions.h */,
+				E7AA3F5D2068C0DD00EE2674 /* CXMLDocument_PrivateExtensions.m */,
+				E7AA3F662068C0DE00EE2674 /* CXMLDocument.h */,
+				E7AA3F5C2068C0DD00EE2674 /* CXMLDocument.m */,
+				E7AA3F542068C0DC00EE2674 /* CXMLElement_CreationExtensions.h */,
+				E7AA3F672068C0DF00EE2674 /* CXMLElement_CreationExtensions.m */,
+				E7AA3F522068C0DC00EE2674 /* CXMLElement_ElementTreeExtensions.h */,
+				E7AA3F572068C0DC00EE2674 /* CXMLElement_ElementTreeExtensions.m */,
+				E7AA3F622068C0DE00EE2674 /* CXMLElement.h */,
+				E7AA3F602068C0DD00EE2674 /* CXMLElement.m */,
+				E7AA3F652068C0DE00EE2674 /* CXMLNamespaceNode.h */,
+				E7AA3F562068C0DC00EE2674 /* CXMLNamespaceNode.m */,
+				E7AA3F4F2068C0DB00EE2674 /* CXMLNode_PrivateExtensions.h */,
+				E7AA3F512068C0DC00EE2674 /* CXMLNode_PrivateExtensions.m */,
+				E7AA3F642068C0DE00EE2674 /* CXMLNode_XPathExtensions.h */,
+				E7AA3F5E2068C0DD00EE2674 /* CXMLNode_XPathExtensions.m */,
+				E7AA3F532068C0DC00EE2674 /* CXMLNode.h */,
+				E7AA3F592068C0DD00EE2674 /* CXMLNode.m */,
+				E7AA3F552068C0DC00EE2674 /* CXMLUnsupportedNode.h */,
+				E7AA3F582068C0DC00EE2674 /* CXMLUnsupportedNode.m */,
+				E7AA3F5A2068C0DD00EE2674 /* Tidy */,
+				E7AA3F5B2068C0DD00EE2674 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +391,57 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AA3F742068C0DF00EE2674 /* CXMLUnsupportedNode.h in Headers */,
+				E7AA3EAE2067C69700EE2674 /* STTBoard.h in Headers */,
+				E7AA3EC62067D59000EE2674 /* STTCSS.h in Headers */,
+				E7AA3EC02067D1DB00EE2674 /* STTViewController.h in Headers */,
+				E7AA3ECF2067E52A00EE2674 /* STTNavigationItem.h in Headers */,
+				E7AA3EBA2067CADB00EE2674 /* STTScene.h in Headers */,
+				E7AA3ECB2067E49300EE2674 /* STTElement.h in Headers */,
+				E7AA3EED20682A2100EE2674 /* STTTableView.h in Headers */,
+				E7AA3ED52067E85700EE2674 /* STTView.h in Headers */,
+				E7AA3F942068C0DF00EE2674 /* CXMLNamespaceNode.h in Headers */,
+				E7AA3EB42067C72B00EE2674 /* CXMLElement+Storytime.h in Headers */,
+				E7AA3F802068C0DF00EE2674 /* TouchXML.h in Headers */,
+				E7AA3F682068C0DF00EE2674 /* CXMLNode_PrivateExtensions.h in Headers */,
+				E7AA3F702068C0DF00EE2674 /* CXMLNode.h in Headers */,
+				E7AA3F882068C0DF00EE2674 /* CXHTMLDocument.h in Headers */,
+				E7AA3F8C2068C0DF00EE2674 /* CXMLDocument_PrivateExtensions.h in Headers */,
+				E7AA3F6E2068C0DF00EE2674 /* CXMLElement_ElementTreeExtensions.h in Headers */,
+				E7AA3F8E2068C0DF00EE2674 /* CXMLElement.h in Headers */,
 				E7AA3E872067C62600EE2674 /* Storytime.h in Headers */,
+				E7AA3F722068C0DF00EE2674 /* CXMLElement_CreationExtensions.h in Headers */,
+				E7AA3F922068C0DF00EE2674 /* CXMLNode_XPathExtensions.h in Headers */,
+				E7AA3F962068C0DF00EE2674 /* CXMLDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA3E922067C65B00EE2674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AA3EAF2067C69700EE2674 /* STTBoard.h in Headers */,
+				E7AA3EC72067D59000EE2674 /* STTCSS.h in Headers */,
+				E7AA3EC12067D1DB00EE2674 /* STTViewController.h in Headers */,
+				E7AA3ED02067E52A00EE2674 /* STTNavigationItem.h in Headers */,
+				E7AA3EBB2067CADB00EE2674 /* STTScene.h in Headers */,
+				E7AA3ECC2067E49300EE2674 /* STTElement.h in Headers */,
+				E7AA3EEE20682A2100EE2674 /* STTTableView.h in Headers */,
+				E7AA3ED62067E85700EE2674 /* STTView.h in Headers */,
+				E7AA3EA52067C65B00EE2674 /* StorytimeiOS.h in Headers */,
+				E7AA3F752068C0DF00EE2674 /* CXMLUnsupportedNode.h in Headers */,
+				E7AA3F952068C0DF00EE2674 /* CXMLNamespaceNode.h in Headers */,
+				E7AA3EB52067C72B00EE2674 /* CXMLElement+Storytime.h in Headers */,
+				E7AA3F812068C0DF00EE2674 /* TouchXML.h in Headers */,
+				E7AA3F692068C0DF00EE2674 /* CXMLNode_PrivateExtensions.h in Headers */,
+				E7AA3F712068C0DF00EE2674 /* CXMLNode.h in Headers */,
+				E7AA3F892068C0DF00EE2674 /* CXHTMLDocument.h in Headers */,
+				E7AA3F8D2068C0DF00EE2674 /* CXMLDocument_PrivateExtensions.h in Headers */,
+				E7AA3F6F2068C0DF00EE2674 /* CXMLElement_ElementTreeExtensions.h in Headers */,
+				E7AA3F8F2068C0DF00EE2674 /* CXMLElement.h in Headers */,
+				E7AA3F732068C0DF00EE2674 /* CXMLElement_CreationExtensions.h in Headers */,
+				E7AA3F932068C0DF00EE2674 /* CXMLNode_XPathExtensions.h in Headers */,
+				E7AA3F972068C0DF00EE2674 /* CXMLDocument.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +484,42 @@
 			productReference = E7AA3E7F2067C62600EE2674 /* StorytimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E7AA3E942067C65B00EE2674 /* StorytimeiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AA3EA62067C65B00EE2674 /* Build configuration list for PBXNativeTarget "StorytimeiOS" */;
+			buildPhases = (
+				E7AA3E902067C65B00EE2674 /* Sources */,
+				E7AA3E912067C65B00EE2674 /* Frameworks */,
+				E7AA3E922067C65B00EE2674 /* Headers */,
+				E7AA3E932067C65B00EE2674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorytimeiOS;
+			productName = StorytimeiOS;
+			productReference = E7AA3E952067C65B00EE2674 /* StorytimeiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7AA3E9C2067C65B00EE2674 /* StorytimeiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AA3EA92067C65B00EE2674 /* Build configuration list for PBXNativeTarget "StorytimeiOSTests" */;
+			buildPhases = (
+				E7AA3E992067C65B00EE2674 /* Sources */,
+				E7AA3E9A2067C65B00EE2674 /* Frameworks */,
+				E7AA3E9B2067C65B00EE2674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7AA3EA02067C65B00EE2674 /* PBXTargetDependency */,
+			);
+			name = StorytimeiOSTests;
+			productName = StorytimeiOSTests;
+			productReference = E7AA3E9D2067C65B00EE2674 /* StorytimeiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +537,14 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					E7AA3E942067C65B00EE2674 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E7AA3E9C2067C65B00EE2674 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = E7AA3E702067C62600EE2674 /* Build configuration list for PBXProject "Storytime" */;
@@ -165,23 +557,70 @@
 			mainGroup = E7AA3E6C2067C62600EE2674;
 			productRefGroup = E7AA3E772067C62600EE2674 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E7AA3F282068ABC600EE2674 /* Products */;
+					ProjectRef = E7AA3F272068ABC600EE2674 /* Storytime-Viewer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E7AA3E752067C62600EE2674 /* Storytime */,
 				E7AA3E7E2067C62600EE2674 /* StorytimeTests */,
+				E7AA3E942067C65B00EE2674 /* StorytimeiOS */,
+				E7AA3E9C2067C65B00EE2674 /* StorytimeiOSTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E7AA3F2D2068ABC700EE2674 /* Storytime-Viewer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Storytime-Viewer.app";
+			remoteRef = E7AA3F2C2068ABC700EE2674 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7AA3F2F2068ABC700EE2674 /* Storytime-ViewerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Storytime-ViewerTests.xctest";
+			remoteRef = E7AA3F2E2068ABC700EE2674 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E7AA3E742067C62600EE2674 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AA3EE3206823CA00EE2674 /* template.html in Resources */,
+				E7AA3F7E2068C0DF00EE2674 /* Tidy in Resources */,
+				E7AA3EE7206823D700EE2674 /* ratchet-theme-ios.min.css in Resources */,
+				E7AA3EE9206823D700EE2674 /* ratchet.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E7AA3E7D2067C62600EE2674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA3E932067C65B00EE2674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AA3EE4206823CA00EE2674 /* template.html in Resources */,
+				E7AA3F7F2068C0DF00EE2674 /* Tidy in Resources */,
+				E7AA3EE8206823D700EE2674 /* ratchet-theme-ios.min.css in Resources */,
+				E7AA3EEA206823D700EE2674 /* ratchet.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA3E9B2067C65B00EE2674 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,6 +634,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AA3EC22067D1DB00EE2674 /* STTViewController.m in Sources */,
+				E7AA3FA22068C3DB00EE2674 /* CXMLDocument_CreationExtensions.m in Sources */,
+				E7AA3F762068C0DF00EE2674 /* CXMLNamespaceNode.m in Sources */,
+				E7AA3F8A2068C0DF00EE2674 /* CXMLElement.m in Sources */,
+				E7AA3F782068C0DF00EE2674 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				E7AA3F862068C0DF00EE2674 /* CXMLNode_XPathExtensions.m in Sources */,
+				E7AA3F7A2068C0DF00EE2674 /* CXMLUnsupportedNode.m in Sources */,
+				E7AA3EBC2067CADB00EE2674 /* STTScene.m in Sources */,
+				E7AA3FA42068C3DB00EE2674 /* CXMLNode_CreationExtensions.m in Sources */,
+				E7AA3ED72067E85700EE2674 /* STTView.m in Sources */,
+				E7AA3F822068C0DF00EE2674 /* CXMLDocument.m in Sources */,
+				E7AA3F6C2068C0DF00EE2674 /* CXMLNode_PrivateExtensions.m in Sources */,
+				E7AA3F902068C0DF00EE2674 /* CXHTMLDocument.m in Sources */,
+				E7AA3F7C2068C0DF00EE2674 /* CXMLNode.m in Sources */,
+				E7AA3ED12067E52A00EE2674 /* STTNavigationItem.m in Sources */,
+				E7AA3F842068C0DF00EE2674 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				E7AA3EB62067C72B00EE2674 /* CXMLElement+Storytime.m in Sources */,
+				E7AA3F982068C0DF00EE2674 /* CXMLElement_CreationExtensions.m in Sources */,
+				E7AA3EC82067D59000EE2674 /* STTCSS.m in Sources */,
+				E7AA3EB02067C69700EE2674 /* STTBoard.m in Sources */,
+				E7AA3EEF20682A2100EE2674 /* STTTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +666,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7AA3E902067C65B00EE2674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AA3EC32067D1DB00EE2674 /* STTViewController.m in Sources */,
+				E7AA3FA32068C3DB00EE2674 /* CXMLDocument_CreationExtensions.m in Sources */,
+				E7AA3F772068C0DF00EE2674 /* CXMLNamespaceNode.m in Sources */,
+				E7AA3F8B2068C0DF00EE2674 /* CXMLElement.m in Sources */,
+				E7AA3F792068C0DF00EE2674 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				E7AA3F872068C0DF00EE2674 /* CXMLNode_XPathExtensions.m in Sources */,
+				E7AA3F7B2068C0DF00EE2674 /* CXMLUnsupportedNode.m in Sources */,
+				E7AA3EBD2067CADB00EE2674 /* STTScene.m in Sources */,
+				E7AA3FA52068C3DB00EE2674 /* CXMLNode_CreationExtensions.m in Sources */,
+				E7AA3ED82067E85700EE2674 /* STTView.m in Sources */,
+				E7AA3F832068C0DF00EE2674 /* CXMLDocument.m in Sources */,
+				E7AA3F6D2068C0DF00EE2674 /* CXMLNode_PrivateExtensions.m in Sources */,
+				E7AA3F912068C0DF00EE2674 /* CXHTMLDocument.m in Sources */,
+				E7AA3F7D2068C0DF00EE2674 /* CXMLNode.m in Sources */,
+				E7AA3ED22067E52A00EE2674 /* STTNavigationItem.m in Sources */,
+				E7AA3F852068C0DF00EE2674 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				E7AA3EB72067C72B00EE2674 /* CXMLElement+Storytime.m in Sources */,
+				E7AA3F992068C0DF00EE2674 /* CXMLElement_CreationExtensions.m in Sources */,
+				E7AA3EC92067D59000EE2674 /* STTCSS.m in Sources */,
+				E7AA3EB12067C69700EE2674 /* STTBoard.m in Sources */,
+				E7AA3EF020682A2100EE2674 /* STTTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AA3E992067C65B00EE2674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AA3EA32067C65B00EE2674 /* StorytimeiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,6 +709,11 @@
 			isa = PBXTargetDependency;
 			target = E7AA3E752067C62600EE2674 /* Storytime */;
 			targetProxy = E7AA3E812067C62600EE2674 /* PBXContainerItemProxy */;
+		};
+		E7AA3EA02067C65B00EE2674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7AA3E942067C65B00EE2674 /* StorytimeiOS */;
+			targetProxy = E7AA3E9F2067C65B00EE2674 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,6 +839,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = Storytime/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -359,6 +861,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = Storytime/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -394,6 +897,86 @@
 			};
 			name = Release;
 		};
+		E7AA3EA72067C65B00EE2674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = X92GSK5YW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = StorytimeiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codes.jorgecohen.StorytimeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7AA3EA82067C65B00EE2674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = X92GSK5YW2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = StorytimeiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codes.jorgecohen.StorytimeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7AA3EAA2067C65B00EE2674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92GSK5YW2;
+				INFOPLIST_FILE = StorytimeiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codes.jorgecohen.StorytimeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7AA3EAB2067C65B00EE2674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X92GSK5YW2;
+				INFOPLIST_FILE = StorytimeiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = codes.jorgecohen.StorytimeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,6 +1003,24 @@
 			buildConfigurations = (
 				E7AA3E8E2067C62600EE2674 /* Debug */,
 				E7AA3E8F2067C62600EE2674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AA3EA62067C65B00EE2674 /* Build configuration list for PBXNativeTarget "StorytimeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AA3EA72067C65B00EE2674 /* Debug */,
+				E7AA3EA82067C65B00EE2674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AA3EA92067C65B00EE2674 /* Build configuration list for PBXNativeTarget "StorytimeiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AA3EAA2067C65B00EE2674 /* Debug */,
+				E7AA3EAB2067C65B00EE2674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

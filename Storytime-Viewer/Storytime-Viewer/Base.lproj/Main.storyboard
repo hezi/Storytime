@@ -39,12 +39,12 @@
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="m8e-x8-Pde">
                                     <rect key="frame" x="14" y="14" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="XBt-Ab-6Mw"/>
+                                    </constraints>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Storytime - Storyboard preview for iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mAW-vM-nmC">
                                     <rect key="frame" x="62" y="24" width="298" height="21"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="298" id="ooE-aT-UWL"/>
-                                    </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" red="0.45478743310000003" green="0.45455747839999999" blue="0.47523581980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
@@ -52,10 +52,11 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="mAW-vM-nmC" firstAttribute="top" secondItem="Rlz-XT-nMC" secondAttribute="top" constant="24" id="7fk-R8-WrI"/>
-                                <constraint firstAttribute="trailing" secondItem="mAW-vM-nmC" secondAttribute="trailing" constant="15" id="bbf-gA-7J1"/>
-                                <constraint firstItem="mAW-vM-nmC" firstAttribute="leading" secondItem="m8e-x8-Pde" secondAttribute="trailing" constant="8" symbolic="YES" id="v1L-XK-ycD"/>
-                                <constraint firstItem="mAW-vM-nmC" firstAttribute="centerY" secondItem="m8e-x8-Pde" secondAttribute="centerY" id="x3P-go-cdH"/>
+                                <constraint firstAttribute="trailing" secondItem="mAW-vM-nmC" secondAttribute="trailing" constant="15" id="FEu-l3-ir8"/>
+                                <constraint firstItem="mAW-vM-nmC" firstAttribute="leading" secondItem="m8e-x8-Pde" secondAttribute="trailing" constant="8" symbolic="YES" id="KBK-1i-Kz5"/>
+                                <constraint firstItem="m8e-x8-Pde" firstAttribute="top" secondItem="Rlz-XT-nMC" secondAttribute="top" constant="14" id="P6C-r7-dD3"/>
+                                <constraint firstItem="m8e-x8-Pde" firstAttribute="leading" secondItem="Rlz-XT-nMC" secondAttribute="leading" constant="14" id="RzX-Ye-5A2"/>
+                                <constraint firstItem="m8e-x8-Pde" firstAttribute="centerY" secondItem="mAW-vM-nmC" secondAttribute="centerY" id="cJu-5z-dZs"/>
                             </constraints>
                         </view>
                         <sections>
@@ -217,7 +218,7 @@
                                 <action selector="presentAbout:" destination="M2k-L8-Olo" id="0hO-uQ-Kjl"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="6bm-Om-LDo">
+                        <barButtonItem key="rightBarButtonItem" title="Done" image="Close" id="6bm-Om-LDo">
                             <connections>
                                 <action selector="dismissDocumentViewController" destination="M2k-L8-Olo" id="NxA-rK-KSn"/>
                             </connections>
@@ -235,6 +236,7 @@
     </scenes>
     <resources>
         <image name="About" width="23" height="23"/>
+        <image name="Close" width="21" height="11"/>
         <image name="Logo" width="40" height="40"/>
     </resources>
 </document>

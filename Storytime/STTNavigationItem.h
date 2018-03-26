@@ -11,5 +11,5 @@
 
 @interface STTNavigationItem : NSObject <STTElement>
 @property (nonatomic) NSString *title;
-@property (nonatomic) NSString *image;
+@property (nonatomic) NSArray *buttons;
 @end

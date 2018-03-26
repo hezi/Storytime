@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E79983382069739500C54276 /* STTBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E79983362069739500C54276 /* STTBarButtonItem.h */; };
+		E79983392069739500C54276 /* STTBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E79983362069739500C54276 /* STTBarButtonItem.h */; };
+		E799833A2069739500C54276 /* STTBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E79983372069739500C54276 /* STTBarButtonItem.m */; };
+		E799833B2069739500C54276 /* STTBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E79983372069739500C54276 /* STTBarButtonItem.m */; };
 		E7AA3E802067C62600EE2674 /* Storytime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3E762067C62600EE2674 /* Storytime.framework */; };
 		E7AA3E852067C62600EE2674 /* StorytimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3E842067C62600EE2674 /* StorytimeTests.m */; };
 		E7AA3E872067C62600EE2674 /* Storytime.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AA3E792067C62600EE2674 /* Storytime.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -142,6 +146,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E79983362069739500C54276 /* STTBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STTBarButtonItem.h; sourceTree = "<group>"; };
+		E79983372069739500C54276 /* STTBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STTBarButtonItem.m; sourceTree = "<group>"; };
 		E7AA3E762067C62600EE2674 /* Storytime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Storytime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7AA3E792067C62600EE2674 /* Storytime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Storytime.h; sourceTree = "<group>"; };
 		E7AA3E7A2067C62600EE2674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -293,6 +299,8 @@
 				E7AA3EBF2067D1DB00EE2674 /* STTViewController.m */,
 				E7AA3ECD2067E52A00EE2674 /* STTNavigationItem.h */,
 				E7AA3ECE2067E52A00EE2674 /* STTNavigationItem.m */,
+				E79983362069739500C54276 /* STTBarButtonItem.h */,
+				E79983372069739500C54276 /* STTBarButtonItem.m */,
 				E7AA3ED32067E85700EE2674 /* STTView.h */,
 				E7AA3ED42067E85700EE2674 /* STTView.m */,
 				E7AA3EEB20682A2100EE2674 /* STTTableView.h */,
@@ -400,6 +408,7 @@
 				E7AA3ECB2067E49300EE2674 /* STTElement.h in Headers */,
 				E7AA3EED20682A2100EE2674 /* STTTableView.h in Headers */,
 				E7AA3ED52067E85700EE2674 /* STTView.h in Headers */,
+				E79983382069739500C54276 /* STTBarButtonItem.h in Headers */,
 				E7AA3F942068C0DF00EE2674 /* CXMLNamespaceNode.h in Headers */,
 				E7AA3EB42067C72B00EE2674 /* CXMLElement+Storytime.h in Headers */,
 				E7AA3F802068C0DF00EE2674 /* TouchXML.h in Headers */,
@@ -429,6 +438,7 @@
 				E7AA3EEE20682A2100EE2674 /* STTTableView.h in Headers */,
 				E7AA3ED62067E85700EE2674 /* STTView.h in Headers */,
 				E7AA3EA52067C65B00EE2674 /* StorytimeiOS.h in Headers */,
+				E79983392069739500C54276 /* STTBarButtonItem.h in Headers */,
 				E7AA3F752068C0DF00EE2674 /* CXMLUnsupportedNode.h in Headers */,
 				E7AA3F952068C0DF00EE2674 /* CXMLNamespaceNode.h in Headers */,
 				E7AA3EB52067C72B00EE2674 /* CXMLElement+Storytime.h in Headers */,
@@ -646,6 +656,7 @@
 				E7AA3ED72067E85700EE2674 /* STTView.m in Sources */,
 				E7AA3F822068C0DF00EE2674 /* CXMLDocument.m in Sources */,
 				E7AA3F6C2068C0DF00EE2674 /* CXMLNode_PrivateExtensions.m in Sources */,
+				E799833A2069739500C54276 /* STTBarButtonItem.m in Sources */,
 				E7AA3F902068C0DF00EE2674 /* CXHTMLDocument.m in Sources */,
 				E7AA3F7C2068C0DF00EE2674 /* CXMLNode.m in Sources */,
 				E7AA3ED12067E52A00EE2674 /* STTNavigationItem.m in Sources */,
@@ -682,6 +693,7 @@
 				E7AA3ED82067E85700EE2674 /* STTView.m in Sources */,
 				E7AA3F832068C0DF00EE2674 /* CXMLDocument.m in Sources */,
 				E7AA3F6D2068C0DF00EE2674 /* CXMLNode_PrivateExtensions.m in Sources */,
+				E799833B2069739500C54276 /* STTBarButtonItem.m in Sources */,
 				E7AA3F912068C0DF00EE2674 /* CXHTMLDocument.m in Sources */,
 				E7AA3F7D2068C0DF00EE2674 /* CXMLNode.m in Sources */,
 				E7AA3ED22067E52A00EE2674 /* STTNavigationItem.m in Sources */,

@@ -30,12 +30,24 @@
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:aboutViewController];
     
-    [self presentViewController:navController animated:YES completion:nil];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        navController.modalPresentationStyle = UIModalPresentationPopover;
+        [self presentViewController:navController animated:YES completion:nil];
+        navController.popoverPresentationController.barButtonItem = sender;
+        
+    } else {
+        [self presentViewController:navController animated:YES completion:nil];
+    }
 }
 
 #pragma mark UIDocumentBrowserViewControllerDelegate
 
 - (void)documentBrowser:(UIDocumentBrowserViewController *)controller didPickDocumentURLs:(NSArray<NSURL *> *)documentURLs {
+
+#if TARGET_OS_SIMULATOR
+    [self presentDocumentAtURL:[NSURL fileURLWithPath:@"/Users/hezi/Development/Storytime/Storytime-Viewer/Storytime-Viewer/Base.lproj/Main.storyboard"]];
+#endif
+    
     NSURL *sourceURL = documentURLs.firstObject;
     if (!sourceURL) {
         return;

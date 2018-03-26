@@ -17,8 +17,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+}
 
-    // Access the document
+- (void)viewDidLoad {
+    [super viewDidLoad];
     [self.document openWithCompletionHandler:^(BOOL success) {
         if (success) {
             // Display the content of the document, e.g.:
@@ -29,6 +31,7 @@
             [self dismissViewControllerAnimated:YES completion:nil];
         }
     }];
+
 }
 
 - (IBAction)presentAbout:(id)sender {
@@ -36,7 +39,14 @@
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:aboutViewController];
     
-    [self presentViewController:navController animated:YES completion:nil];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        navController.modalPresentationStyle = UIModalPresentationPopover;
+        [self presentViewController:navController animated:YES completion:nil];
+        navController.popoverPresentationController.barButtonItem = sender;
+        
+    } else {
+        [self presentViewController:navController animated:YES completion:nil];
+    }
 }
 
 - (IBAction)dismissDocumentViewController {

@@ -20,6 +20,7 @@
 		E7AA3FAF2068C91B00EE2674 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3FAE2068C91B00EE2674 /* WebKit.framework */; };
 		E7AA3FB12068CFFA00EE2674 /* StorytimeiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3F352068AC0600EE2674 /* StorytimeiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7AA3FB42068D93300EE2674 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AA3FB32068D93300EE2674 /* MobileCoreServices.framework */; };
+		E7AA3FBB20690C8F00EE2674 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AA3FBA20690C8F00EE2674 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		E7AA3F352068AC0600EE2674 /* StorytimeiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StorytimeiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7AA3FAE2068C91B00EE2674 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		E7AA3FB32068D93300EE2674 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E7AA3FB920690C8F00EE2674 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		E7AA3FBA20690C8F00EE2674 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				E7AA3F0E2068ABC200EE2674 /* LaunchScreen.storyboard */,
 				E7AA3F112068ABC200EE2674 /* Info.plist */,
 				E7AA3F122068ABC200EE2674 /* main.m */,
+				E7AA3FB920690C8F00EE2674 /* AboutViewController.h */,
+				E7AA3FBA20690C8F00EE2674 /* AboutViewController.m */,
 			);
 			path = "Storytime-Viewer";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7AA3FBB20690C8F00EE2674 /* AboutViewController.m in Sources */,
 				E7AA3F132068ABC200EE2674 /* main.m in Sources */,
 				E7AA3F082068ABC200EE2674 /* Document.m in Sources */,
 				E7AA3F022068ABC200EE2674 /* DocumentBrowserViewController.m in Sources */,

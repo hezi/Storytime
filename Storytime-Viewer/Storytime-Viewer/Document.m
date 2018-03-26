@@ -17,6 +17,16 @@
     return [[NSData alloc] init];
 }
 
+- (BOOL)readFromURL:(NSURL *)url error:(NSError * _Nullable __autoreleasing *)outError {
+    // Hack so we don't open non storyboard files (as document type in Info.plist is set to all files)
+    
+    if([[url pathExtension] isEqualToString:@"storyboard"]) {
+        return [super readFromURL:url error:outError];
+    }
+    
+    return NO;
+}
+
 - (BOOL)loadFromContents:(id)contents ofType:(NSString *)typeName error:(NSError **)errorPtr {
     NSString *uti = (__bridge NSString *)(UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, (__bridge CFStringRef _Nonnull)(self.fileURL.pathExtension), nil));
 

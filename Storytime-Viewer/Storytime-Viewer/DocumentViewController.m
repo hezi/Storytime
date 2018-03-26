@@ -26,8 +26,17 @@
             [self.webView loadHTMLString:self.document.htmlString baseURL:[[NSBundle bundleForClass:self.class] bundleURL]];
         } else {
             // Make sure to handle the failed import appropriately, e.g., by presenting an error message to the user.
+            [self dismissViewControllerAnimated:YES completion:nil];
         }
     }];
+}
+
+- (IBAction)presentAbout:(id)sender {
+    UIViewController *aboutViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"AboutViewController"];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:aboutViewController];
+    
+    [self presentViewController:navController animated:YES completion:nil];
 }
 
 - (IBAction)dismissDocumentViewController {

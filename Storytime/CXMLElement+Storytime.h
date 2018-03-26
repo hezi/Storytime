@@ -7,7 +7,7 @@
 //
 
 #import "CXMLElement.h"
-#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 @interface CXMLElement (Storytime)
 - (CXMLElement *)elementForName:(NSString *)name;

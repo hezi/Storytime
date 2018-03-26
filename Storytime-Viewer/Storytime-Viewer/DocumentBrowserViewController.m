@@ -19,31 +19,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.delegate = self;
-    self.allowsDocumentCreation = YES;
+    self.allowsDocumentCreation = NO;
     self.allowsPickingMultipleItems = NO;
 
-    // Update the style of the UIDocumentBrowserViewController
-    // self.browserUserInterfaceStyle = UIDocumentBrowserUserInterfaceStyleDark;
-    // self.view.tintColor = [UIColor whiteColor];
+    self.additionalLeadingNavigationBarButtonItems = @[[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"About"] style:(UIBarButtonItemStylePlain) target:self action:@selector(presentAbout:)]];
+}
 
-    // Specify the allowed content types of your application via the Info.plist.
-
-    // Do any additional setup after loading the view, typically from a nib.
+- (IBAction)presentAbout:(id)sender {
+    UIViewController *aboutViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"AboutViewController"];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:aboutViewController];
+    
+    [self presentViewController:navController animated:YES completion:nil];
 }
 
 #pragma mark UIDocumentBrowserViewControllerDelegate
-
-- (void)documentBrowser:(UIDocumentBrowserViewController *)controller didRequestDocumentCreationWithHandler:(void (^)(NSURL *_Nullable, UIDocumentBrowserImportMode))importHandler {
-    NSURL *newDocumentURL = nil;
-
-    // Set the URL for the new document here. Optionally, you can present a template chooser before calling the importHandler.
-    // Make sure the importHandler is always called, even if the user cancels the creation request.
-    if (newDocumentURL != nil) {
-        importHandler(newDocumentURL, UIDocumentBrowserImportModeMove);
-    } else {
-        importHandler(newDocumentURL, UIDocumentBrowserImportModeNone);
-    }
-}
 
 - (void)documentBrowser:(UIDocumentBrowserViewController *)controller didPickDocumentURLs:(NSArray<NSURL *> *)documentURLs {
     NSURL *sourceURL = documentURLs.firstObject;

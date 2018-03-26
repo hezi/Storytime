@@ -4,6 +4,7 @@ Storytime is a framework to parse and render Interface Builder Storyboard files.
 Support for more componenets and output formats soon.
 
 By [Jorge Cohen](http://twitter.com/jorgewritescode), See the LICENSE file for license info (it's the MIT license).
+
 If you find this useful please consider [buying me a beer](http://paypal.me/jorgecohen) :) 
 
 ## Motivation
@@ -12,7 +13,7 @@ I've created Storytime as a why to visually display storyboards outside of Inter
 
 ## Internals
 Storyboards a actually very simple XML files so parsing them is pretty stright forward.
-Initially I tried using XSLT to transform the Storyboard into HTML but ran into some issue.
+Initially I tried using XSLT to transform the Storyboard into HTML but ran into some issues.
 
 This version parses the storyboard into classes conforming to a protocol `STTElement` which defines the `-htmlRepesentation` method.
 Using the Ratchet CSS framework and the html produced by the various elements you get a pretty (although not 100%) accurate visual representation of the storyboard.

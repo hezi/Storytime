@@ -3,6 +3,8 @@
 Storytime is a framework to parse and render Interface Builder Storyboard files.
 Support for more componenets and output formats soon.
 
+![Screenshot](https://github.com/hezi/Storytime/raw/master/screenshot.png "Screenshot")
+
 By [Jorge Cohen](http://twitter.com/jorgewritescode), See the LICENSE file for license info (it's the MIT license).
 
 If you find this useful please consider [buying me a beer](http://paypal.me/jorgecohen) :) 

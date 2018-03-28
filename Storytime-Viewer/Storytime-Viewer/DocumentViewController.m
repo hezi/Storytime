@@ -31,19 +31,18 @@
             [self dismissViewControllerAnimated:YES completion:nil];
         }
     }];
-
 }
 
 - (IBAction)presentAbout:(id)sender {
     UIViewController *aboutViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"AboutViewController"];
-    
+
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:aboutViewController];
-    
+
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         navController.modalPresentationStyle = UIModalPresentationPopover;
         [self presentViewController:navController animated:YES completion:nil];
         navController.popoverPresentationController.barButtonItem = sender;
-        
+
     } else {
         [self presentViewController:navController animated:YES completion:nil];
     }

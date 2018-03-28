@@ -7,8 +7,8 @@
 //
 
 #import "STTNavigationItem.h"
-#import "STTBarButtonItem.h"
 #import "CXMLElement+Storytime.h"
+#import "STTBarButtonItem.h"
 
 @implementation STTNavigationItem
 
@@ -16,15 +16,15 @@
     self = [super init];
     if (self) {
         self.title = [element stringAttributeForName:@"title"] ?: @"";
-        NSArray <CXMLElement*>* buttonElements = [element elementsForName:@"barButtonItem"];
-        
+        NSArray<CXMLElement *> *buttonElements = [element elementsForName:@"barButtonItem"];
+
         NSMutableArray *buttons = [NSMutableArray arrayWithCapacity:[buttonElements count]];
-        for(CXMLElement *buttonElement in buttonElements) {
+        for (CXMLElement *buttonElement in buttonElements) {
             if ([buttonElement isKindOfClass:[CXMLElement class]]) {
                 [buttons addObject:[[STTBarButtonItem alloc] initWithXMLElement:buttonElement board:board]];
             }
         }
-        
+
         self.buttons = buttons;
     }
 
@@ -36,7 +36,7 @@
 
     [html appendString:@"<header class='bar bar-nav'>"];
 
-    for(STTBarButtonItem *button in self.buttons) {
+    for (STTBarButtonItem *button in self.buttons) {
         [html appendString:[button htmlRepresentation]];
     }
 

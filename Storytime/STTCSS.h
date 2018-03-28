@@ -6,8 +6,8 @@
 //  Copyright © 2018 Jorge Cohen. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
+#import <Foundation/Foundation.h>
 
 FOUNDATION_EXTERN NSString *STTPointToCSS(CGPoint point);
 FOUNDATION_EXTERN NSString *STTSizeToCSS(CGSize size);

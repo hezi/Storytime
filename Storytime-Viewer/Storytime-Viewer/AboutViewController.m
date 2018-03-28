@@ -18,12 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.aboutURLS = @[
-                       [NSURL URLWithString:@"http://twitter.com/jorgewritecode"],
-                       [NSURL URLWithString:@"http://jorgecohen.codes"],
-                       [NSURL URLWithString:@"https://github.com/twbs/ratchet"],
-                       [NSURL URLWithString:@"https://github.com/TouchCode/TouchXML"],
-                       [NSURL URLWithString:@"http://www.glyphish.com/"]
-                       ];
+        [NSURL URLWithString:@"http://twitter.com/jorgewritecode"],
+        [NSURL URLWithString:@"http://jorgecohen.codes"],
+        [NSURL URLWithString:@"https://github.com/twbs/ratchet"],
+        [NSURL URLWithString:@"https://github.com/TouchCode/TouchXML"],
+        [NSURL URLWithString:@"http://www.glyphish.com/"]
+    ];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,7 +36,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [[UIApplication sharedApplication] openURL:_aboutURLS[(indexPath.section*2)+indexPath.row] options:@{} completionHandler:nil];
+    [[UIApplication sharedApplication] openURL:_aboutURLS[(indexPath.section * 2) + indexPath.row] options:@{} completionHandler:nil];
 }
 
 /*

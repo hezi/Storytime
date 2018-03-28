@@ -6,8 +6,8 @@
 //  Copyright © 2018 Jorge Cohen. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
+#import <Foundation/Foundation.h>
 
 @class STTBoard;
 

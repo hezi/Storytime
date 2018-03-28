@@ -17,13 +17,13 @@
     return [[NSData alloc] init];
 }
 
-- (BOOL)readFromURL:(NSURL *)url error:(NSError * _Nullable __autoreleasing *)outError {
+- (BOOL)readFromURL:(NSURL *)url error:(NSError *_Nullable __autoreleasing *)outError {
     // Hack so we don't open non storyboard files (as document type in Info.plist is set to all files)
-    
-    if([[url pathExtension] isEqualToString:@"storyboard"]) {
+
+    if ([[url pathExtension] isEqualToString:@"storyboard"]) {
         return [super readFromURL:url error:outError];
     }
-    
+
     return NO;
 }
 

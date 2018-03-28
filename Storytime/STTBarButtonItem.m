@@ -14,24 +14,24 @@
     self = [super init];
     if (self) {
         self.title = [element stringAttributeForName:@"title"] ?: @"";
-        if([[element stringAttributeForName:@"key"] isEqualToString:@"leftBarButtonItem"] ) {
+        if ([[element stringAttributeForName:@"key"] isEqualToString:@"leftBarButtonItem"]) {
             self.position = STTBarButtonPositionLeft;
         } else {
             self.position = STTBarButtonPositionRight;
         }
     }
-    
+
     return self;
 }
 
 - (NSString *)htmlRepresentation {
     NSString *class;
-    if(self.position == STTBarButtonPositionRight) {
+    if (self.position == STTBarButtonPositionRight) {
         class = @"btn btn-link btn-nav pull-right";
     } else {
         class = @"btn btn-link btn-nav pull-left";
     }
-    
+
     return [NSString stringWithFormat:@"<button class='%@'>%@</button>", class, self.title];
 }
 

@@ -6,8 +6,8 @@
 //  Copyright © 2018 Jorge Cohen. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
 #import "STTBoard.h"
+#import <XCTest/XCTest.h>
 
 @interface StorytimeTests : XCTestCase
 
@@ -28,9 +28,8 @@
 - (void)testExample {
     NSURL *storyURL = [NSURL fileURLWithPath:@"/Users/hezi/Desktop/storyboard.storyboard"]; //@"/Users/hezi/TalkTheTime/TalkTheTime/Base.lproj/Main.storyboard"
     STTBoard *board = [[STTBoard alloc] initWithURL:storyURL];
-    
-    [[board htmlRepresentation] writeToURL:[NSURL URLWithString:@"file:///Users/hezi/Desktop/untitles.html"] atomically:YES encoding:NSUTF8StringEncoding error:nil];
 
+    [[board htmlRepresentation] writeToURL:[NSURL URLWithString:@"file:///Users/hezi/Desktop/untitles.html"] atomically:YES encoding:NSUTF8StringEncoding error:nil];
 }
 
 - (void)testPerformanceExample {

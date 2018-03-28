@@ -22,19 +22,19 @@
     self.allowsDocumentCreation = NO;
     self.allowsPickingMultipleItems = NO;
 
-    self.additionalLeadingNavigationBarButtonItems = @[[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"About"] style:(UIBarButtonItemStylePlain) target:self action:@selector(presentAbout:)]];
+    self.additionalLeadingNavigationBarButtonItems = @[ [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"About"] style:(UIBarButtonItemStylePlain)target:self action:@selector(presentAbout:)] ];
 }
 
 - (IBAction)presentAbout:(id)sender {
     UIViewController *aboutViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"AboutViewController"];
-    
+
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:aboutViewController];
-    
+
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         navController.modalPresentationStyle = UIModalPresentationPopover;
         [self presentViewController:navController animated:YES completion:nil];
         navController.popoverPresentationController.barButtonItem = sender;
-        
+
     } else {
         [self presentViewController:navController animated:YES completion:nil];
     }
@@ -47,7 +47,7 @@
 #if TARGET_OS_SIMULATOR
     [self presentDocumentAtURL:[NSURL fileURLWithPath:@"/Users/hezi/Development/Storytime/Storytime-Viewer/Storytime-Viewer/Base.lproj/Main.storyboard"]];
 #endif
-    
+
     NSURL *sourceURL = documentURLs.firstObject;
     if (!sourceURL) {
         return;

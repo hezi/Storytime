@@ -8,8 +8,8 @@
 
 #import "STTTableView.h"
 #import "CXMLElement+Storytime.h"
-#import "STTView.h"
 #import "STTCSS.h"
+#import "STTView.h"
 
 @interface STTTableViewCell : NSObject <STTElement>
 @property (nonatomic) STTView *contentView;

@@ -1,11 +1,11 @@
 # Storytime 
 
-<a href="https://itunes.apple.com/us/app/storytime-viewer/id1364001518?mt=8" style="display:inline-block;overflow:hidden;background:url(https://github.com/hezi/Storytime/raw/master/appstore-badge.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
+<a href="https://itunes.apple.com/us/app/storytime-viewer/id1364001518?mt=8" style="width:135px;height:40px;"><img src="/readme/appstore-badge.svg"></a>
 
 Storytime is a framework to parse and render Interface Builder Storyboard files.
 Support for more componenets and output formats soon.
 
-![Screenshot](https://github.com/hezi/Storytime/raw/master/screenshot.png "Screenshot")
+<img src="/screenshot.png">
 
 By [Jorge Cohen](http://twitter.com/jorgewritescode), See the LICENSE file for license info (it's the MIT license).
 

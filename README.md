@@ -3,7 +3,7 @@
 <a href="https://itunes.apple.com/us/app/storytime-viewer/id1364001518?mt=8" style="width:135px;height:40px;"><img src="/readme/appstore-badge.svg"></a>
 
 Storytime is a framework to parse and render Interface Builder Storyboard files.
-Support for more componenets and output formats soon.
+Support for more components and output formats soon.
 
 <img src="/screenshot.png">
 

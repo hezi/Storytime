@@ -13,7 +13,7 @@ If you find this useful please consider [buying me a beer](http://paypal.me/jorg
 
 ## Motivation
 If you've ever developed for iOS/macOS you've probably tried to QuickLook into a storyboard file only to be disappointed.
-I've created Storytime as a why to visually display storyboards outside of Interface Builder, This could be QuickLook, Git Client, etc.
+I've created Storytime as a way to visually display storyboards outside of Interface Builder, This could be QuickLook, Git Client, etc.
 
 ## Internals
 Storyboards a actually very simple XML files so parsing them is pretty stright forward.
